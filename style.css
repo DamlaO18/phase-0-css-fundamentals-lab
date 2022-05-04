@@ -1,14 +1,16 @@
 * {
-  margin: 90;
-  padding: auto;
+  margin: 100;
+  padding: 100;
 }
 
 h1 .center {
   text-align: center;
+  width: 50%
 }
 
 img {
   align-items: center;
+  width: 600px
 }
 
 body {
@@ -20,4 +22,9 @@ body {
 
 footer {
   background-color: red;
+}
+  
+div {
+  display: inline-block;
+  align-content: space-between;
 }
